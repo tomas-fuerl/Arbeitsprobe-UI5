@@ -8,7 +8,7 @@
 		items="{invoice>/Schueler}">
 		<items>
 			<ObjectListItem
-				title="{invoice>Quantity} x {invoice>ProductName}"/>
+				title="{invoice>SchülerVorname} {invoice>SchülerName}, {invoice>Abteilung}, {invoice>Klasse}, {invoice>Alter}"/>
 		</items>
 	</List>
 </mvc:View>

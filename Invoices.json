@@ -1,44 +1,39 @@
 {
-  "Invoices": [
+  "Schueler": [
 	{
-	  "ProductName": "Pineapple",
-	  "Quantity": 21,
-	  "ExtendedPrice": 87.2000,
-	  "ShipperName": "Fun Inc.",
-	  "ShippedDate": "2015-04-01T00:00:00",
-	  "Status": "A"
+	  "SchülerName": "Petersen",
+	  "SchülerVorname": "Peter",
+	  "Klasse": "ITQ11",
+	  "Abteilung": "IT",
+	  "Alter": 19
 	},
 	{
-	  "ProductName": "Milk",
-	  "Quantity": 4,
-	  "ExtendedPrice": 9.99999,
-	  "ShipperName": "ACME",
-	  "ShippedDate": "2015-02-18T00:00:00",
-	  "Status": "B"
+	  "SchülerName": "Jansen",
+	  "SchülerVorname": "Jan",
+	  "Klasse": "IFK12",
+	  "Abteilung": "IT",
+	  "Alter": 26
 	},
 	{
-	  "ProductName": "Canned Beans",
-	  "Quantity": 3,
-	  "ExtendedPrice": 6.85000,
-	  "ShipperName": "ACME",
-	  "ShippedDate": "2015-03-02T00:00:00",
-	  "Status": "B"
+	  "SchülerName": "Helgason",
+	  "SchülerVorname": "Helga",
+	  "Klasse": "BK10",
+	  "Abteilung": "BWL",
+	  "Alter": 20
 	},
 	{
-	  "ProductName": "Salad",
-	  "Quantity": 2,
-	  "ExtendedPrice": 8.8000,
-	  "ShipperName": "ACME",
-	  "ShippedDate": "2015-04-12T00:00:00",
-	  "Status": "C"
+	  "SchülerName": "Nana",
+	  "SchülerVorname": "Nina",
+	  "Klasse": "KP10",
+	  "Abteilung": "Kindepflege",
+	  "Alter": 19
 	},
 	{
-	  "ProductName": "Bread",
-	  "Quantity": 1,
-	  "ExtendedPrice": 2.71212,
-	  "ShipperName": "Fun Inc.",
-	  "ShippedDate": "2015-01-27T00:00:00",
-	  "Status": "A"
+	  "SchülerName": "Theke",
+	  "SchülerVorname": "Anna",
+	  "Klasse": "BK12",
+	  "Abteilung": "BWL",
+	  "Alter": 23
 	}
   ]
 }
