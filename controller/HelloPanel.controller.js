@@ -9,9 +9,10 @@ sap.ui.define([
 		onShowHello : function () {
 			// read msg from i18n model
 			var oBundle = this.getView().getModel("i18n").getResourceBundle();
-			var sRecipient = this.getView().getModel().getProperty("/recipient/name");
-			var sMsg = oBundle.getText("helloMsg", [sRecipient]);
-
+			var zahl1 = this.getView().getModel().getProperty("/recipient/zahl1");
+            var zahl2 = this.getView().getModel().getProperty("/recipient/zahl2");
+			var sMsg = oBundle.getText("helloMsg", [zahl2]);
+            sMsg = sMsg + " | " + zahl1;
 			// show message
 			MessageToast.show(sMsg);
 		},

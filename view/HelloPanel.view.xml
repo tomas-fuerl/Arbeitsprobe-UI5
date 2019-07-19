@@ -9,9 +9,11 @@
 		<content>
             <VBox>
                 <Input
+				value="{/recipient/zahl1}"
 				valueLiveUpdate="true"
 				width="60%"/>
                 <Input
+				value="{/recipient/zahl2}"
 				valueLiveUpdate="true"
 				width="60%"/>
             </VBox>
