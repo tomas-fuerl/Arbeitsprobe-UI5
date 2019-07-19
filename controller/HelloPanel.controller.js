@@ -12,7 +12,7 @@ sap.ui.define([
 			var zahl1 = this.getView().getModel().getProperty("/recipient/zahl1");
             var zahl2 = this.getView().getModel().getProperty("/recipient/zahl2");
             var ergebnis = zahl1 + zahl2
-			var sMsg = oBundle.getText("helloMsg", [zahl1], [zahl2], [ergebnis]);
+			var sMsg = oBundle.getText("helloMsg", [zahl1, zahl2, ergebnis]);
 			// show message
 			MessageToast.show(sMsg);
 		},
